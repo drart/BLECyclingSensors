@@ -12,6 +12,7 @@
 		6DF508191C0A412100BCE142 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF508181C0A412100BCE142 /* Images.xcassets */; };
 		6DF5081C1C0A412100BCE142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF5081A1C0A412100BCE142 /* Main.storyboard */; };
 		6DF508281C0A412100BCE142 /* HeartRatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF508271C0A412100BCE142 /* HeartRatedTests.swift */; };
+		6DF508321C0A42B200BCE142 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF508311C0A42B200BCE142 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		6DF508211C0A412100BCE142 /* HeartRatedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRatedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF508261C0A412100BCE142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF508271C0A412100BCE142 /* HeartRatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRatedTests.swift; sourceTree = "<group>"; };
+		6DF508311C0A42B200BCE142 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF508321C0A42B200BCE142 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		6DF508061C0A412100BCE142 = {
 			isa = PBXGroup;
 			children = (
+				6DF508311C0A42B200BCE142 /* CoreBluetooth.framework */,
 				6DF508111C0A412100BCE142 /* HeartRated */,
 				6DF508241C0A412100BCE142 /* HeartRatedTests */,
 				6DF508101C0A412100BCE142 /* Products */,
